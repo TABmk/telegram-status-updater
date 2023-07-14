@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  bot:
+    build: .
+    environment:
+      apiId: 123
+      apiHash: '123'
+      stringSession: ''
+      cron: '*/15 * * * *'
+    container_name: status_bot
+    restart: always
+    working_dir: /app

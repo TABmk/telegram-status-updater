@@ -1,0 +1,19 @@
+{
+  "name": "telegram-status-updater",
+  "description": "NodeJS telegram status updater with timer",
+  "repository": "https://github.com/TABmk/telegram-status-updater.git",
+  "homepage": "https://github.com/TABmk/telegram-status-updater.git",
+  "bugs": "https://github.com/TABmk/telegram-status-updater/issues",
+  "version": "1.0.0",
+  "author": "TAB_mk <tabmk.contact@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "dependencies": {
+    "input": "1.0.1",
+    "node-cron": "3.0.2",
+    "telegram": "2.17.10"
+  }
+}
